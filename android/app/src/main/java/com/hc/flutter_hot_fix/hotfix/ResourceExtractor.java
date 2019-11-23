@@ -1,4 +1,4 @@
-package com.didapingche.flutter_hot_fix.hotfix;
+package com.hc.flutter_hot_fix.hotfix;
 
 
 import android.content.pm.PackageInfo;
@@ -9,7 +9,6 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Build.VERSION;
 import android.util.Log;
-
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;

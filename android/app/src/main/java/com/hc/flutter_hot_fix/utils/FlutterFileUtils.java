@@ -1,27 +1,13 @@
-package com.didapingche.flutter_hot_fix.utils;
+package com.hc.flutter_hot_fix.utils;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Environment;
-import android.util.Log;
-import android.widget.Toast;
-
-import androidx.annotation.NonNull;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.Array;
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-
-import dalvik.system.PathClassLoader;
 
 public class FlutterFileUtils {
     ///将文件拷贝到私有目录

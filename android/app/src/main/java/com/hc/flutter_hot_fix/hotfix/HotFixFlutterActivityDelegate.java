@@ -1,4 +1,4 @@
-package com.didapingche.flutter_hot_fix.hotfix;
+package com.hc.flutter_hot_fix.hotfix;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -58,7 +58,7 @@ public class HotFixFlutterActivityDelegate implements FlutterActivityEvents, Flu
         return this.flutterView.getPluginRegistry().valuePublishedByPlugin(pluginKey);
     }
 
-    public PluginRegistry.Registrar registrarFor(String pluginKey) {
+    public Registrar registrarFor(String pluginKey) {
         return this.flutterView.getPluginRegistry().registrarFor(pluginKey);
     }
 
@@ -348,7 +348,7 @@ public class HotFixFlutterActivityDelegate implements FlutterActivityEvents, Flu
                 public void onFirstFrame() {
                     HotFixFlutterActivityDelegate.this.launchView.animate().alpha(0.0F).setListener(new AnimatorListenerAdapter() {
                         public void onAnimationEnd(Animator animation) {
-                            ((ViewGroup)HotFixFlutterActivityDelegate.this.launchView.getParent()).removeView(HotFixFlutterActivityDelegate.this.launchView);
+                            ((ViewGroup) HotFixFlutterActivityDelegate.this.launchView.getParent()).removeView(HotFixFlutterActivityDelegate.this.launchView);
                             HotFixFlutterActivityDelegate.this.launchView = null;
                         }
                     });

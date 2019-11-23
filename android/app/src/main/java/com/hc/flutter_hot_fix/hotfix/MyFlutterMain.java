@@ -1,22 +1,16 @@
-package com.didapingche.flutter_hot_fix.hotfix;
+package com.hc.flutter_hot_fix.hotfix;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
-import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
-
-
 import android.util.Log;
 import android.view.WindowManager;
-import android.widget.Toast;
-
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

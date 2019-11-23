@@ -1,15 +1,13 @@
-package com.didapingche.flutter_hot_fix;
+package com.hc.flutter_hot_fix;
 
 import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.didapingche.flutter_hot_fix.hotfix.HotFixFlutterActivity;
-import com.didapingche.flutter_hot_fix.utils.FlutterFileUtils;
+import com.hc.flutter_hot_fix.hotfix.HotFixFlutterActivity;
+import com.hc.flutter_hot_fix.utils.FlutterFileUtils;
 
 import java.util.List;
 

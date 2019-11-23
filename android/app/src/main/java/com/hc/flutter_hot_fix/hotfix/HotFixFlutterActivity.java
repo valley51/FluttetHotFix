@@ -1,4 +1,4 @@
-package com.didapingche.flutter_hot_fix.hotfix;
+package com.hc.flutter_hot_fix.hotfix;
 
 
 import android.app.Activity;
